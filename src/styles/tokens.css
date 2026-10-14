@@ -1,0 +1,92 @@
+/* ============================================================
+   Design Tokens — Emerald Gourmet & Champagne Gold Palette
+   Primary:   #0F3A2E (Forest Emerald)
+   Secondary: #13221C (Deep Pine Charcoal)
+   Accent:    #E5A93C (Warm Champagne Gold)
+   Mint:      #25A18E (Vibrant Mint / Jade)
+   Background:#F7F9F6 (Crisp Ivory)
+   Headings:  Poppins
+   Body:      Inter
+   Cards:     16-24px rounded, soft organic shadows
+   ============================================================ */
+
+:root {
+  /* ---- Brand Colors ---- */
+  --color-primary: #0F3A2E;
+  --color-primary-hover: #092820;
+  --color-primary-soft: rgba(15, 58, 46, 0.08);
+  --color-primary-contrast: #FFFFFF;
+
+  --color-secondary: #13221C;
+  --color-secondary-soft: #1D3129;
+  --color-secondary-contrast: #FFFFFF;
+
+  --color-accent: #E5A93C;
+  --color-accent-hover: #CF942E;
+  --color-accent-soft: rgba(229, 169, 60, 0.12);
+
+  --color-mint: #25A18E;
+  --color-mint-hover: #1F8777;
+  --color-mint-soft: rgba(37, 161, 142, 0.12);
+
+  --color-bg: #F7F9F6;
+  --color-surface: #FFFFFF;
+  --color-surface-warm: #EBF4F0;
+  --color-surface-hover: #F2F8F5;
+
+  --color-text: #13221C;
+  --color-text-secondary: #4D6158;
+  --color-muted: #73887F;
+  --color-border: #DFE7E2;
+  --color-border-subtle: #EBF0ED;
+
+  --color-success: #25A18E;
+  --color-danger: #D64545;
+  --color-sale: #E5A93C;
+  --color-veg: #25A18E;
+  --color-nonveg: #B83A3A;
+
+  /* ---- Typography ---- */
+  --font-display: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* ---- Spacing ---- */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+
+  /* ---- Border Radius (16-24px rounded cards) ---- */
+  --radius-sm: 0.5rem;       /* 8px */
+  --radius-md: 0.75rem;      /* 12px */
+  --radius-lg: 1rem;         /* 16px */
+  --radius-xl: 1.25rem;      /* 20px */
+  --radius-2xl: 1.5rem;      /* 24px */
+  --radius-3xl: 2rem;        /* 32px */
+  --radius-full: 9999px;     /* Pill buttons */
+
+  /* ---- Soft Organic Modern Shadows ---- */
+  --shadow-sm: 0 2px 8px -1px rgba(15, 58, 46, 0.04);
+  --shadow-md: 0 8px 24px -4px rgba(15, 58, 46, 0.07), 0 2px 6px -1px rgba(15, 58, 46, 0.03);
+  --shadow-lg: 0 16px 36px -6px rgba(15, 58, 46, 0.1), 0 4px 12px -2px rgba(15, 58, 46, 0.04);
+  --shadow-xl: 0 24px 48px -8px rgba(15, 58, 46, 0.14), 0 8px 20px -4px rgba(229, 169, 60, 0.12);
+  --shadow-primary: 0 12px 28px -4px rgba(15, 58, 46, 0.35);
+  --shadow-accent: 0 12px 28px -4px rgba(229, 169, 60, 0.3);
+
+  /* ---- Z-index Scale ---- */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal: 300;
+  --z-overlay: 400;
+  --z-toast: 500;
+
+  /* ---- Layout ---- */
+  --header-height: 4.75rem;
+  --announcement-height: 2.25rem;
+  --bottom-bar-height: 3.75rem;
+  --max-width: 1320px;
+  --sidebar-width: 280px;
+}
